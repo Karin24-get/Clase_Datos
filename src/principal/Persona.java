@@ -1,4 +1,4 @@
-package princiapl;
+package principal;
 
 class Persona {
     String ci, nombre;
@@ -18,7 +18,7 @@ class Persona {
     
     @Override
     public String toString(){
-        return "Cédula: " + this.ci + "   Nombre: " + this.nombre;
+        return "Cedula: " + this.ci + "   Nombre: " + this.nombre;
     }
     
 }// FINAL CLASS

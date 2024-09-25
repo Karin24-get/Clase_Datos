@@ -1,4 +1,4 @@
-package princiapl;
+package principal;
 
 public class Nodo {
     Object dato;         // El dato que almacena el nodo

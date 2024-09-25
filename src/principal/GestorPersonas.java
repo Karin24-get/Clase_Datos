@@ -1,4 +1,4 @@
-package princiapl;
+package principal;
 
 class GestorPersonas {
     Lista personas;  // Lista de personas
@@ -26,6 +26,11 @@ class GestorPersonas {
     // Imprimir la lista de personas
     public void imprimir() {
         this.personas.imprimir();  // Usa el método imprimir de la clase Lista
+    }
+
+    // Imprimir detalles de cada persona en la lista
+    public void imprimirDetalles() {
+        this.personas.imprimirDetalles();  // Usa el método imprimirDetalles de la clase Lista
     }
 
     // Borra la última persona de la lista
